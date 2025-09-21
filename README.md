@@ -20,9 +20,9 @@ graph TD
 
     D --> D1[lib]
 
-    classDef core fill:#ADD8E6,stroke:#000000,stroke-width:1px;
-    classDef features fill:#90EE90,stroke:#000000,stroke-width:1px;
-    classDef lib fill:#D3D3D3,stroke:#000000,stroke-width:1px;
+    classDef core fill:#90EE90,stroke:#000000,stroke-width:3px,color:#000000;
+    classDef features fill:#90EE90,stroke:#000000,stroke-width:3px,color:#000000;
+    classDef lib fill:#90EE90,stroke:#000000,stroke-width:3px,color:#000000;
     class A,B,B1,B2,B3,B4,B5,B6 core;
     class C,C1,C2 features;
     class D,D1 lib;
