@@ -115,6 +115,32 @@ We welcome contributions to this project! Here's how you can help:
 - **GitHub**: [@Mahm0udbakir](https://github.com/Mahm0udbakir)
 - **LinkedIn**: [Mahmoud Bakir](https://www.linkedin.com/in/mahm0udbakir/)
 
+## Built With
+
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins the acknowledgements section. Here are a few examples.
+
+- **Flutter** - Cross-platform mobile development framework
+
+## Top Contributors
+
+Thanks goes to these wonderful people:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Mahm0udbakir">
+        <img src="https://github.com/Mahm0udbakir.png" width="100px;" alt="Mahmoud Bakir"/>
+        <br />
+        <sub><b>Mahmoud Bakir</b></sub>
+      </a>
+      <br />
+      <a href="https://github.com/Mahm0udbakir/clean_arch/commits?author=Mahm0udbakir" title="Code">💻</a>
+      <a href="https://github.com/Mahm0udbakir/clean_arch/commits?author=Mahm0udbakir" title="Documentation">📖</a>
+      <a href="https://github.com/Mahm0udbakir/clean_arch/commits?author=Mahm0udbakir" title="Maintenance">🔧</a>
+    </td>
+  </tr>
+</table>
+
 ## Support the Project
 
 If you find this project helpful, consider supporting it:
