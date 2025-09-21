@@ -14,15 +14,29 @@ graph TD
     B --> B5("shared<br/>models, widgets")
     B --> B6(utils)
 
-    C --> C1("feature_1<br/>data, domain, presentation")
+    C --> C1(feature_1)
+    C1 --> C1a(data)
+    C1a --> C1a1(api)
+    C1a --> C1a2(mapper)
+    C1a --> C1a3(models)
+    C1a --> C1a4(repo_impl)
+    C1 --> C1b(domain)
+    C1b --> C1b1(entities)
+    C1b --> C1b2(repo)
+    C1b --> C1b3(use_cases)
+    C1 --> C1c(presentation)
+    C1c --> C1c1(cubit)
+    C1c --> C1c2(screens)
+    C1c2 --> C1c2a(screen_1)
+    C1c2 --> C1c2b(screen_2)
+
     C --> C2("feature_2<br/>data: api, mapper, models, repo_impl<br/>domain: entities, repo, use_cases<br/>presentation: cubit, screens")
 
-    classDef core fill:#90EE90,stroke:#000000,stroke-width:15px,color:#000000;
-    classDef features fill:#90EE90,stroke:#000000,stroke-width:15px,color:#000000;
-    classDef lib fill:#90EE90,stroke:#000000,stroke-width:15px,color:#000000;
+    classDef core fill:#90EE90,stroke:#FFFF00,stroke-width:15px,color:#000000;
+    classDef features fill:#90EE90,stroke:#FFFF00,stroke-width:15px,color:#000000;
+    classDef lib fill:#90EE90,stroke:#FFFF00,stroke-width:15px,color:#000000;
     class A,B,B1,B2,B3,B4,B5,B6 core;
-    class C,C1,C2 features;
-    class D,D1 lib;
+    class C,C1,C1a,C1a1,C1a2,C1a3,C1a4,C1b,C1b1,C1b2,C1b3,C1c,C1c1,C1c2,C1c2a,C1c2b,C2 features;
 ```
 
 This diagram illustrates the clean architecture of the `normalCleanArch` project, organized into `core`, `features`, and `lib` directories. The `features` directory includes modular components like `feature_1` and `feature_2`, each adhering to clean architecture layers.
