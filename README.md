@@ -108,18 +108,11 @@ We welcome contributions to this project! Here's how you can help:
 - Follow the existing code style
 - Ensure all tests pass before submitting
 
-## Contact
-
-- **Author**: Mahmoud Bakir
-- **Email**: [mahmoud.m.bakir@gmail.com](mailto:mahmoud.m.bakir@gmail.com)
-- **GitHub**: [@Mahm0udbakir](https://github.com/Mahm0udbakir)
-- **LinkedIn**: [Mahmoud Bakir](https://www.linkedin.com/in/mahm0udbakir/)
-
 ## Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins the acknowledgements section. Here are a few examples.
 
-- **Flutter** - Cross-platform mobile development framework
+- ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) - Cross-platform mobile development framework
 
 ## Top Contributors
 
@@ -129,7 +122,7 @@ Thanks goes to these wonderful people:
   <tr>
     <td align="center">
       <a href="https://github.com/Mahm0udbakir">
-        <img src="https://github.com/Mahm0udbakir.png" width="100px;" alt="Mahmoud Bakir"/>
+        <img src="https://github.com/Mahm0udbakir.png" width="100px;" alt="Mahmoud Bakir" style="border-radius: 50%;"/>
         <br />
         <sub><b>Mahmoud Bakir</b></sub>
       </a>
@@ -146,3 +139,10 @@ Thanks goes to these wonderful people:
 If you find this project helpful, consider supporting it:
 
 [![Buy me a coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=☕&slug=mahmoudbakir&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FF0000)](https://buymeacoffee.com/mahmoudbakir)
+
+## Contact
+
+- **Author**: Mahmoud Bakir
+- **Email**: [mahmoud.m.bakir@gmail.com](mailto:mahmoud.m.bakir@gmail.com)
+- **GitHub**: [@Mahm0udbakir](https://github.com/Mahm0udbakir)
+- **LinkedIn**: [Mahmoud Bakir](https://www.linkedin.com/in/mahm0udbakir/)
