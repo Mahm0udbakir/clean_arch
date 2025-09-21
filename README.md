@@ -4,21 +4,21 @@
 
 ```mermaid
 graph TD
-    A[normalCleanArch] --> B[core]
-    A --> C[features]
-    A --> D[lib]
+    A(normalCleanArch) --> B(core)
+    A --> C(features)
+    A --> D(lib)
 
-    B --> B1[constants]
-    B --> B2[di]
-    B --> B3[error]
-    B --> B4[routes]
-    B --> B5["shared<br/>models, widgets"]
-    B --> B6[utils]
+    B --> B1(constants)
+    B --> B2(di)
+    B --> B3(error)
+    B --> B4(routes)
+    B --> B5("shared<br/>models, widgets")
+    B --> B6(utils)
 
-    C --> C1["feature_1<br/>data, domain, presentation"]
-    C --> C2["feature_2<br/>data: api, mapper, models, repo_impl<br/>domain: entities, repo, use_cases<br/>presentation: cubit, screens"]
+    C --> C1("feature_1<br/>data, domain, presentation")
+    C --> C2("feature_2<br/>data: api, mapper, models, repo_impl<br/>domain: entities, repo, use_cases<br/>presentation: cubit, screens")
 
-    D --> D1[lib]
+    D --> D1(lib)
 
     classDef core fill:#90EE90,stroke:#000000,stroke-width:3px,color:#000000;
     classDef features fill:#90EE90,stroke:#000000,stroke-width:3px,color:#000000;
