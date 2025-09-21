@@ -32,9 +32,9 @@ graph TD
 
     C ==> C2(feature_2)
 
-    classDef core fill:#31326F,stroke:#637AB9,stroke-width:8px,color:#A8FBD3,font-weight:bold;
-    classDef features fill:#31326F,stroke:#637AB9,stroke-width:8px,color:#A8FBD3,font-weight:bold;
-    classDef lib fill:#31326F,stroke:#637AB9,stroke-width:8px,color:#A8FBD3,font-weight:bold;
+    classDef core fill:#FF9A00,stroke:#4F200D,stroke-width:4px,color:#F6F1E9,font-weight:bold;
+    classDef features fill:#FF9A00,stroke:#4F200D,stroke-width:4px,color:#F6F1E9,font-weight:bold;
+    classDef lib fill:#FF9A00,stroke:#4F200D,stroke-width:4px,color:#F6F1E9,font-weight:bold;
     class A,B,B1,B2,B3,B4,B5,B6 core;
     class C,C1,C1a,C1a1,C1a2,C1a3,C1a4,C1b,C1b1,C1b2,C1b3,C1c,C1c1,C1c2,C1c2a,C1c2b,C2 features;
 ```
