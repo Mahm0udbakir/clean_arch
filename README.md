@@ -1,5 +1,7 @@
 # Clean Architecture Flutter Project
 
+<a id="readme-top"></a>
+
 Welcome to Clean Architecture Flutter Project! This is a Flutter application built following Clean Architecture principles for scalable and maintainable mobile development. It aims to demonstrate best practices in Flutter development with a modular, testable, and loosely coupled codebase structure.
 
 ## Table of Contents
@@ -117,25 +119,13 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 - ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) 
 
-## Top Contributors
+### Top contributors:
 
-Thanks goes to these wonderful people:
+<a href="https://github.com/Mahm0udbakir/clean_arch/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Mahm0udbakir/clean_arch" alt="contrib.rocks image" />
+</a>
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Mahm0udbakir">
-        <img src="https://github.com/Mahm0udbakir.png" width="100px;" alt="Mahmoud Bakir" style="border-radius: 50%; border: 3px solid #0366d6;"/>
-        <br />
-        <sub><b>Mahmoud Bakir</b></sub>
-      </a>
-      <br />
-      <a href="https://github.com/Mahm0udbakir/clean_arch/commits?author=Mahm0udbakir" title="Code">💻</a>
-      <a href="https://github.com/Mahm0udbakir/clean_arch/commits?author=Mahm0udbakir" title="Documentation">📖</a>
-      <a href="https://github.com/Mahm0udbakir/clean_arch/commits?author=Mahm0udbakir" title="Maintenance">🔧</a>
-    </td>
-  </tr>
-</table>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Support the Project
 
