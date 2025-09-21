@@ -78,14 +78,12 @@ graph TD
     C1 ==> C1c(presentation)
     C1c ==> C1c1(cubit)
     C1c ==> C1c2(screens)
-    C1c2 ==> C1c2a(screen_1)
-    C1c2 ==> C1c2b(screen_2)
-
+    
     C ==> C2(feature_2)
 
-    classDef core fill:#667eea,stroke:#764ba2,stroke-width:4px,color:#ffffff,font-weight:bold;
-    classDef features fill:#f093fb,stroke:#f5576c,stroke-width:4px,color:#ffffff,font-weight:bold;
-    classDef lib fill:#4facfe,stroke:#00f2fe,stroke-width:4px,color:#ffffff,font-weight:bold;
+    classDef core fill:#0366d6,stroke:#1f2937,stroke-width:3px,color:#ffffff,font-weight:bold;
+    classDef features fill:#28a745,stroke:#1f2937,stroke-width:3px,color:#ffffff,font-weight:bold;
+    classDef lib fill:#6f42c1,stroke:#1f2937,stroke-width:3px,color:#ffffff,font-weight:bold;
     class A,B,B1,B2,B3,B4,B5,B6 core;
     class C,C1,C1a,C1a1,C1a2,C1a3,C1a4,C1b,C1b1,C1b2,C1b3,C1c,C1c1,C1c2,C1c2a,C1c2b,C2 features;
 ```
@@ -121,4 +119,4 @@ We welcome contributions to this project! Here's how you can help:
 
 If you find this project helpful, consider supporting it:
 
-<a href="https://buymeacoffee.com/mahmoudbakir" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=mahmoudbakir&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FF0000" alt="Buy me a coffee" /></a>
+[![Buy me a coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=☕&slug=mahmoudbakir&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FF0000)](https://buymeacoffee.com/mahmoudbakir)
