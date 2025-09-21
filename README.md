@@ -9,6 +9,9 @@ Welcome to Clean Architecture Flutter Project! This is a Flutter application bui
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
+- [Built With](#built-with)
+- [Top Contributors](#top-contributors)
+- [Support the Project](#support-the-project)
 - [Contact](#contact)
 
 ## Installation
@@ -112,7 +115,7 @@ We welcome contributions to this project! Here's how you can help:
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins the acknowledgements section. Here are a few examples.
 
-- ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) - Cross-platform mobile development framework
+- ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) 
 
 ## Top Contributors
 
@@ -122,7 +125,7 @@ Thanks goes to these wonderful people:
   <tr>
     <td align="center">
       <a href="https://github.com/Mahm0udbakir">
-        <img src="https://github.com/Mahm0udbakir.png" width="100px;" alt="Mahmoud Bakir" style="border-radius: 50%;"/>
+        <img src="https://github.com/Mahm0udbakir.png" width="100px;" alt="Mahmoud Bakir" style="border-radius: 50%; border: 3px solid #0366d6;"/>
         <br />
         <sub><b>Mahmoud Bakir</b></sub>
       </a>
