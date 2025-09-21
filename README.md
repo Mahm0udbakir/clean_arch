@@ -4,8 +4,8 @@
 
 ```mermaid
 graph TD
-    A(normalCleanArch) ==> B(core)
-    A ==> C(features)
+    A(normalCleanArch) ====> B(core)
+    A ====> C(features)
 
     B ==> B1(constants)
     B ==> B2(di)
