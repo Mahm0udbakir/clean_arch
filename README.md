@@ -1,16 +1,39 @@
-# clean_arch
+graph TD
+    A[normalCleanArch] --> B[core]
+    A --> C[features]
+    A --> D[lib]
 
-A new Flutter project.
+    B --> B1[constants]
+    B --> B2[di]
+    B --> B3[error]
+    B --> B4[routes]
+    B --> B5[shared]
+    B5 --> B5a[models]
+    B5 --> B5b[widgets]
+    B --> B6[utils]
 
-## Getting Started
+    C --> C1[feature_1]
+    C1 --> C1a[data]
+    C1 --> C1b[domain]
+    C1 --> C1c[presentation]
+    C --> C2[feature_2]
+    C2 --> C2a[data]
+    C2a --> C2a1[api]
+    C2a --> C2a2[mapper]
+    C2a --> C2a3[models]
+    C2a --> C2a4[repo_impl]
+    C2 --> C2b[domain]
+    C2b --> C2b1[entities]
+    C2b --> C2b2[repo]
+    C2b --> C2b3[use_cases]
+    C2 --> C2c[presentation]
+    C2c --> C2c1[cubit]
+    C2c --> C2c2[screens]
+    C2c2 --> C2c2a[screen_1]
+    C2c2a --> C2c2a1[widgets]
+    C2c2a --> C2c2a2[screen_1.dart]
+    C2c2 --> C2c2b[screen_2]
+    C2c2b --> C2c2b1[widgets]
+    C2c2b --> C2c2b2[screen_2.dart]
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+    D --> D1[lib]
