@@ -17,9 +17,9 @@ graph TD
     C --> C1("feature_1<br/>data, domain, presentation")
     C --> C2("feature_2<br/>data: api, mapper, models, repo_impl<br/>domain: entities, repo, use_cases<br/>presentation: cubit, screens")
 
-    classDef core fill:#90EE90,stroke:#000000,stroke-width:6px,color:#000000;
-    classDef features fill:#90EE90,stroke:#000000,stroke-width:6px,color:#000000;
-    classDef lib fill:#90EE90,stroke:#000000,stroke-width:6px,color:#000000;
+    classDef core fill:#90EE90,stroke:#000000,stroke-width:15px,color:#000000;
+    classDef features fill:#90EE90,stroke:#000000,stroke-width:15px,color:#000000;
+    classDef lib fill:#90EE90,stroke:#000000,stroke-width:15px,color:#000000;
     class A,B,B1,B2,B3,B4,B5,B6 core;
     class C,C1,C2 features;
     class D,D1 lib;
