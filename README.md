@@ -45,4 +45,4 @@ This diagram illustrates the clean architecture of the `normalCleanArch` project
 
 If you find this project helpful, consider supporting it:
 
-[![Buy me a coffee](https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=your-username&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FF0000)](https://buymeacoffee.com/mahmoudbakir)
+<a href="https://buymeacoffee.com/mahmoudbakir" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=mahmoudbakir&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FF0000" alt="Buy me a coffee" /></a>
