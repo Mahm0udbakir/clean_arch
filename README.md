@@ -125,8 +125,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
   <img src="https://contrib.rocks/image?repo=Mahm0udbakir/clean_arch" alt="contrib.rocks image" />
 </a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## Support the Project
 
 If you find this project helpful, consider supporting it:
