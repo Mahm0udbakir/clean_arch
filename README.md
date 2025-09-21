@@ -1,3 +1,8 @@
+# Clean Architecture Flutter Project
+
+## Project Structure
+
+```mermaid
 graph TD
     A[normalCleanArch] --> B[core]
     A --> C[features]
@@ -7,33 +12,26 @@ graph TD
     B --> B2[di]
     B --> B3[error]
     B --> B4[routes]
-    B --> B5[shared]
-    B5 --> B5a[models]
-    B5 --> B5b[widgets]
+    B --> B5[shared<br>models, widgets]
     B --> B6[utils]
 
-    C --> C1[feature_1]
-    C1 --> C1a[data]
-    C1 --> C1b[domain]
-    C1 --> C1c[presentation]
-    C --> C2[feature_2]
-    C2 --> C2a[data]
-    C2a --> C2a1[api]
-    C2a --> C2a2[mapper]
-    C2a --> C2a3[models]
-    C2a --> C2a4[repo_impl]
-    C2 --> C2b[domain]
-    C2b --> C2b1[entities]
-    C2b --> C2b2[repo]
-    C2b --> C2b3[use_cases]
-    C2 --> C2c[presentation]
-    C2c --> C2c1[cubit]
-    C2c --> C2c2[screens]
-    C2c2 --> C2c2a[screen_1]
-    C2c2a --> C2c2a1[widgets]
-    C2c2a --> C2c2a2[screen_1.dart]
-    C2c2 --> C2c2b[screen_2]
-    C2c2b --> C2c2b1[widgets]
-    C2c2b --> C2c2b2[screen_2.dart]
+    C --> C1[feature_1<br>data, domain, presentation]
+    C --> C2[feature_2<br>data(api, mapper, models, repo_impl),<br>domain(entities, repo, use_cases),<br>presentation(cubit, screens)]
 
     D --> D1[lib]
+
+    classDef core fill:#ADD8E6,stroke:#000000,stroke-width:1px;
+    classDef features fill:#90EE90,stroke:#000000,stroke-width:1px;
+    classDef lib fill:#D3D3D3,stroke:#000000,stroke-width:1px;
+    class A,B,B1,B2,B3,B4,B5,B6 core;
+    class C,C1,C2 features;
+    class D,D1 lib;
+```
+
+This diagram illustrates the clean architecture of the `normalCleanArch` project, organized into `core`, `features`, and `lib` directories. The `features` directory includes modular components like `feature_1` and `feature_2`, each adhering to clean architecture layers.
+
+## Support the Project
+
+If you find this project helpful, consider supporting it:
+
+[![Buy me a coffee](https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=your-username&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=FF0000)](https://buymeacoffee.com/your-username)
