@@ -30,7 +30,7 @@ graph TD
     C1c2 --> C1c2a(screen_1)
     C1c2 --> C1c2b(screen_2)
 
-    C --> C2("feature_2<br/>data: api, mapper, models, repo_impl<br/>domain: entities, repo, use_cases<br/>presentation: cubit, screens")
+    C --> C2("feature_2")
 
     classDef core fill:#90EE90,stroke:#FFFF00,stroke-width:15px,color:#000000;
     classDef features fill:#90EE90,stroke:#FFFF00,stroke-width:15px,color:#000000;
