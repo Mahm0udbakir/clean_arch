@@ -22,8 +22,8 @@ To get started with this project, follow these steps:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/clean_arch.git
-   cd clean_arch
+   git clone https://github.com/your-username/mahmoudbakir_week2_cleanarch.git
+   cd mahmoudbakir_week2_cleanarch
    ```
 
 2. **Install dependencies**
@@ -121,8 +121,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 ### Top contributors:
 
-<a href="https://github.com/Mahm0udbakir/clean_arch/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Mahm0udbakir/clean_arch" alt="contrib.rocks image" />
+<a href="https://github.com/Mahm0udbakir/mahmoudbakir_week2_cleanarch/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Mahm0udbakir/mahmoudbakir_week2_cleanarch" alt="contrib.rocks image" />
 </a>
 
 ## Support the Project
