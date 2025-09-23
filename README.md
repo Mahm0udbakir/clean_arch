@@ -2,7 +2,7 @@
 
 <a id="readme-top"></a>
 
-Welcome to Clean Architecture Flutter Project! This is a Flutter application built following Clean Architecture principles for scalable and maintainable mobile development. It aims to demonstrate best practices in Flutter development with a modular, testable, and loosely coupled codebase structure.
+Welcome to Clean Architecture Flutter Project! This Flutter application follows Clean Architecture principles for scalable and maintainable development. I originally explored patterns ad‑hoc, but I’ve since studied Clean Architecture in depth—watching Omar Ahmed’s course and reading Uncle Bob’s Clean Architecture book. I’m now taking those learnings to update this repository myself, aiming for a modular, testable, and loosely coupled codebase that demonstrates best practices end‑to‑end.
 
 ## Table of Contents
 
